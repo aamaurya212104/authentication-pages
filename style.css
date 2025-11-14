@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4c6ef5, #b197fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 350px;
+    background: rgba(255,255,255,0.2);
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    text-align: center;
+    color: white;
+}
+input, button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+}
+button {
+    background: #4c6ef5;
+    color: white;
+}
+button:hover {
+    background: #364fc7;
+}
